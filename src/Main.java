@@ -3,7 +3,8 @@ public class Main {
         /*BaseballCoach theCoach = new BaseballCoach();
         System.out.println(theCoach.getDailyWorkout());*/
 
-        Coach theCoach = new BaseballCoach();
+        //Coach theCoach = new BaseballCoach();
+        Coach theCoach = new TrackCoach();
 
         //use the object
         System.out.println(theCoach.getDailyWorkout());
